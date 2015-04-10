@@ -6,14 +6,14 @@ public class Song implements Comparable<Song> {
 	private long quality;
 
 	/**
-	 * Constructs a Song object
+	 * Constructs a Song object.
 	 * 
 	 * @param listenedToAmount
 	 *            The amount of times a song was played on an album.
 	 * @param name
 	 *            The name of the song.
 	 * @param trackNumber
-	 *            The numerical value in which a song appears on an album
+	 *            The numerical value in which a song appears on an album.
 	 */
 	public Song(long listenedToAmount, String name, int trackNumber) {
 		this.listenedToAmount = listenedToAmount;
@@ -23,6 +23,7 @@ public class Song implements Comparable<Song> {
 	}
 
 	/**
+	 *
 	 * @return The song name.
 	 */
 	public String getName() {
